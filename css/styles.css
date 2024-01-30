@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 15px 0;
+  background-color: #02918c;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.main-nav a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.main-block {
+  padding: 150px 0;
+  background-image: url(../images/main-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-link {
+  background-color: #cfc91d;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #02918c;
+  text-align: center;
+}
+
+.about-description {
+  color: #4e5052;
+  font-size: 16px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.about-list-icons {
+  list-style-type: none;
+  display: table;
+  margin: 80px 0 80px;
+}
+
+.about-list-icons li {
+  display: table-cell;
+  text-align: center;
+}
+
+.about-list-icons li h2 {
+  color: #4e5052;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-list-icons li p {
+  color: #4e5052;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  min-height: 80px;
+  text-align: end;
+}
+
+.footer-title {
+  color: #7e8287;
+  font-size: 12px;
+}
